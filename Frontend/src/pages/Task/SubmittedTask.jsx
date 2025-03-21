@@ -93,7 +93,7 @@ const SubmittedTask = () => {
 
   return (
    <>
-    <Container>
+    <Container className='lg:w-1/4 h-43 mr-6 ml-6'>
         <Card className={`mb-4`}>
           <Card.Header>
             <i className="fas fa-table me-1"></i>
@@ -182,14 +182,14 @@ const SubmittedTask = () => {
               )}
             </div>
 
-            <div className="d-flex justify-content-center mt-4">
+            <div className="d-flex justify-content-center ">
               <Pagination>
                 {[
                   ...Array(
                     Math.ceil(filteredTasks.length / tasksPerPage)
                   ).keys(),
                 ].map((number) => (
-                  <Pagination.Item
+                  <Pagination.Item className='size-4'
                     key={number + 1}
                     active={number + 1 === currentPage}
                     onClick={() => paginate(number + 1)}

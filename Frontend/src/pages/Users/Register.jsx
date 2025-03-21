@@ -68,8 +68,8 @@ function Register() {
   };
 
   return (
-    <div className="container mt-2">
-      <form className="bg-light p-4 rounded">
+    <div className="container mt-2 mr-9 ml-9">
+      <form className="bg-light p-6 rounded ">
         <div className="row">
           <div className="col-md-6 mb-3">
             <label htmlFor="name" className="form-label">
@@ -170,7 +170,7 @@ function Register() {
               required
             />
           </div>
-          <div className="col-12 mb-3">
+          <div className="col-6 mb-3">
             <label htmlFor="desc" className="form-label">
               Description
             </label>

@@ -5,7 +5,7 @@ import Slider from '../components/slider/Slider';
 import Register from '../pages/Users/Register';
 import Dashboard from '../components/Dashboard/AdminDashboard/Dashboard';
 import UserDashboard from '../components/Dashboard/UserDashboard/UserDashboard';
-import Signup from '../pages/signup/Signup';
+// import Signup from '../pages/signup/Signup';
 
 import Home from '../pages/Users/Home';
 import Edit from '../pages/Users/Edit';
@@ -178,7 +178,7 @@ function AppRouters() {
         }
       />
 
-<Route
+{/* <Route
         path="/signup"
         element={
           <>
@@ -186,7 +186,7 @@ function AppRouters() {
             < Signup/>           
           </>
         }
-      />
+      /> */}
 
 <Route
         path="/attendoption"

@@ -7,6 +7,7 @@ import UserDataChart from '../UserDashboard/UserDataChart';
 
 function Dashboard() {
   return (
+    
     <div className={`container-fluid ${styles.dashboard} overflow-hidden w-100`} style={{ maxHeight: "100vh" }}>
       {/* Charts Section */}
       <div className="row px-4">
@@ -37,12 +38,15 @@ function Dashboard() {
               <div className="w-full md:w-1/2 flex justify-center min-h-[200px]">
                 <CircleProgressBar />
               </div>
+              
             </div>
           </div>
+          
         </div>
 
       </div>  
     </div>
+    
   );
 }
 

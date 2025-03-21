@@ -63,7 +63,7 @@ function Signin() {
       )}
       <section>
       <div className='logfull'  >
-      <div className="login" style={{height:"630px",paddingTop:"35px"} }>
+      <div className="login" style={{height:"480px",paddingTop:"20px", marginTop:"40px"}}>
       <div className="avatar" style={{width:"100px", height:"100px"}}>
         <img src={icon} />
       </div>
@@ -95,25 +95,17 @@ function Signin() {
               
             /> 
             
-            <span id='sp' style={{marginRight:"45px",color:'#157ae1' }}>
+            <span id='sp' style={{marginRight:"-3px",color:'#157ae1' }}>
               Show Password
             </span>
             &nbsp; &nbsp;
-            <span id='sp' style={{ color: '#157ae1', cursor: 'pointer' }} onClick={()=>navigate('/forgetpassword')}>
-              Forgot Password ?{' '}
-            </span>
+            
 
 </div>
 
-          <button type="submit"  onClick={(e)=>handleLogin(e)} > LOGIN</button>
+          <button type="submit" style={{marginTop:"-28px", width:"150px",height:"50px"}} onClick={(e)=>handleLogin(e)} > LOGIN</button>
 
-          <p style={{ color: '#157ae1', fontSize: '18px' }}>
-            Create Account For Employee ?&nbsp; &nbsp;{' '} <br/>
-            <span style={{ cursor: 'pointer' }} onClick={() => navigate('/signup')}>
-              {' '}
-              Signup
-            </span>{' '}
-          </p>
+          
         </form>
       </div>
       </div>
